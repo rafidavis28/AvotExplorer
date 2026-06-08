@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ingest cache (raw downloads from Sefaria GCS bucket)
+/.ingest-cache
+
+# local Claude settings
+.claude/settings.local.json

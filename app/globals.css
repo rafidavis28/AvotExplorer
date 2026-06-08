@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
+/* ============================================================
+   Avot Explorer — "Celestial Manuscript"
+   A night sky of teachings (dark canvas) + illuminated
+   parchment cards (warm vellum). Gold/brass accents throughout.
+   ============================================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Night canvas */
+  --night: #0c0e1a;
+  --night-2: #11142370;
+  --night-deep: #070811;
+
+  /* Parchment / vellum (the card surface) */
+  --vellum: #f3ead3;
+  --vellum-edge: #e6d6b0;
+  --ink: #2b2113;
+  --ink-soft: #5c5238;
+
+  /* Brass / gold accents */
+  --gold: #c8a44e;
+  --gold-bright: #e7c879;
+  --gold-dim: #8a7434;
+
+  /* Node colors (graph) */
+  --star: #ece2c4; /* mishnah node */
+  --orb: #d8a93f; /* theme node */
+  --edge: #6a6f93;
+
+  --background: var(--night);
+  --foreground: #e9e3d2;
 }
 
 @theme inline {
+  --color-night: var(--night);
+  --color-night-deep: var(--night-deep);
+  --color-vellum: var(--vellum);
+  --color-vellum-edge: var(--vellum-edge);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-gold-dim: var(--gold-dim);
+  --color-star: var(--star);
+  --color-orb: var(--orb);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-hebrew: var(--font-hebrew);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--night);
+  /* layered radial glows for atmosphere */
+  background-image:
+    radial-gradient(120% 90% at 50% -10%, #1c2140 0%, rgba(28, 33, 64, 0) 55%),
+    radial-gradient(80% 70% at 85% 110%, #1a1530 0%, rgba(26, 21, 48, 0) 60%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), Georgia, serif;
+}
+
+/* Fine grain overlay for texture — sits above background, below content */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.font-hebrew {
+  font-family: var(--font-hebrew), "Frank Ruhl Libre", serif;
+}
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+/* ---- Vellum / parchment surface for cards ---- */
+.vellum {
+  background-color: var(--vellum);
+  background-image:
+    radial-gradient(140% 120% at 0% 0%, rgba(255, 251, 240, 0.7) 0%, rgba(255, 251, 240, 0) 45%),
+    radial-gradient(120% 120% at 100% 100%, rgba(160, 140, 96, 0.18) 0%, rgba(160, 140, 96, 0) 50%);
+  color: var(--ink);
+}
+
+/* Thin brass divider */
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--gold) 18%,
+    var(--gold-bright) 50%,
+    var(--gold) 82%,
+    transparent
+  );
+}
+
+/* ---- Animations ---- */
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-panel-in {
+  animation: panel-in 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise-in {
+  animation: rise-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-panel-in,
+  .animate-rise-in {
+    animation: none;
+  }
+}
+
+/* Custom scrollbar inside vellum panels */
+.scroll-vellum::-webkit-scrollbar {
+  width: 9px;
+}
+.scroll-vellum::-webkit-scrollbar-thumb {
+  background: var(--vellum-edge);
+  border-radius: 9px;
+}
+.scroll-vellum::-webkit-scrollbar-track {
+  background: transparent;
 }
