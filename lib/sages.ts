@@ -13,9 +13,30 @@ export interface Sage {
   bio: string;
 }
 
-const data = sagesData as { sages: Sage[]; attributions: Record<string, string[]> };
+/** One link in the chain of transmission: a sage, or a pre-Mishnaic figure. */
+export interface ChainItem {
+  slug?: string;
+  name?: string;
+  hebrew?: string;
+}
+
+/** A generation/group in the chain of transmission (Avot 1–2). */
+export interface ChainGroup {
+  title: string;
+  note?: string;
+  items: ChainItem[];
+}
+
+const data = sagesData as {
+  sages: Sage[];
+  chain: ChainGroup[];
+  attributions: Record<string, string[]>;
+};
 
 export const sages: Sage[] = data.sages;
+
+/** The chain of transmission, in order, as laid out in Avot 1–2. */
+export const chain: ChainGroup[] = data.chain;
 
 /** ref -> sage slugs (primary voice first). Anonymous mishnayot are absent. */
 export const attributions: Record<string, string[]> = data.attributions;

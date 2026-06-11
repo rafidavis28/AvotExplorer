@@ -70,6 +70,63 @@
     { "slug": "rabbi-shimon-ben-menasya", "name": "Rabbi Shimon ben Menasya", "hebrew": "רַבִּי שִׁמְעוֹן בֶּן מְנַסְיָא", "era": "Tanna · late 2nd cent. CE", "bio": "Of the 'holy congregation' that divided each day between Torah, prayer, and labor." },
     { "slug": "rabbi-yose-ben-kisma", "name": "Rabbi Yose ben Kisma", "hebrew": "רַבִּי יוֹסֵי בֶּן קִסְמָא", "era": "Tanna · 2nd cent. CE", "bio": "Refused all the riches in the world rather than live outside a place of Torah." }
   ],
+  "chain": [
+    {
+      "title": "From Sinai",
+      "note": "Moses received the Torah at Sinai and transmitted it (Avot 1:1)",
+      "items": [
+        { "name": "Moses", "hebrew": "מֹשֶׁה" },
+        { "name": "Joshua", "hebrew": "יְהוֹשֻׁעַ" },
+        { "name": "The Elders", "hebrew": "זְקֵנִים" },
+        { "name": "The Prophets", "hebrew": "נְבִיאִים" }
+      ]
+    },
+    {
+      "title": "The Great Assembly",
+      "items": [
+        { "slug": "men-of-the-great-assembly" },
+        { "slug": "shimon-hatzaddik" },
+        { "slug": "antigonus-of-socho" }
+      ]
+    },
+    {
+      "title": "The Zugot — Five Pairs",
+      "note": "In each pair: the Nasi (president) and the Av Beit Din (head of court)",
+      "items": [
+        { "slug": "yose-ben-yoezer" },
+        { "slug": "yose-ben-yochanan" },
+        { "slug": "yehoshua-ben-perachiah" },
+        { "slug": "nittai-the-arbelite" },
+        { "slug": "yehudah-ben-tabbai" },
+        { "slug": "shimon-ben-shetach" },
+        { "slug": "shemaiah" },
+        { "slug": "avtalyon" },
+        { "slug": "hillel" },
+        { "slug": "shammai" }
+      ]
+    },
+    {
+      "title": "The House of Hillel — the Dynasty of the Nesi'im",
+      "items": [
+        { "slug": "rabban-gamliel-the-elder" },
+        { "slug": "rabban-shimon-ben-gamliel" },
+        { "slug": "rabbi-yehudah-hanasi" },
+        { "slug": "rabban-gamliel-iii" }
+      ]
+    },
+    {
+      "title": "After the Destruction — Yavneh",
+      "note": "Rabban Yochanan ben Zakkai and his five disciples (Avot 2:8)",
+      "items": [
+        { "slug": "rabban-yochanan-ben-zakkai" },
+        { "slug": "rabbi-eliezer-ben-hyrcanus" },
+        { "slug": "rabbi-yehoshua-ben-chananiah" },
+        { "slug": "rabbi-yose-hakohen" },
+        { "slug": "rabbi-shimon-ben-netanel" },
+        { "slug": "rabbi-elazar-ben-arach" }
+      ]
+    }
+  ],
   "attributions": {
     "Avot 1:1": ["men-of-the-great-assembly"],
     "Avot 1:2": ["shimon-hatzaddik"],

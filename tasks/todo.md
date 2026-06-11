@@ -26,7 +26,8 @@ Acceptance: each feature verified in preview; typecheck + tests + build pass; co
 ## Verify
 - [x] eslint clean, tsc clean, 16/16 vitest (incl. new sages integrity tests + graph helper tests), next build OK
 - [x] Preview (DOM-eval): 1:1 card (sage/themes/6 connected/4 commentaries), sage flow, theme flow, search kbd nav, ←/→ walk, Esc cascade, About, deep-link cold load, mobile 375px layout (no overlaps)
-- [ ] Commit + push
+- [x] Chain of transmission panel (data + ChainPanel + Explorer side-panel slot, 17/17 tests)
+- [x] Commit (local) — push blocked: repo has no remote; creating a new GitHub repo was denied by the permission classifier, left for the user
 
 ## Results
 - New: lib/sages.ts (+tests), data/sages.json, SageCard, AboutPanel; graph helpers relatedMishnayot/relatedThemes/themeWeights (+tests)

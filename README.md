@@ -10,6 +10,9 @@ Beyond the graph itself:
 - **Sages layer** — every attributed teaching names its sage (curated in
   `data/sages.json` with era + one-line bio); tap a sage to gather everything
   they say in the tractate.
+- **Chain of transmission** — a "Chain" panel walks the shalshelet ha-mesorah
+  of Avot 1–2 (Sinai → Great Assembly → the Zugot → the House of Hillel →
+  Yavneh), every link clickable.
 - **Connected teachings** — each Mishnah card lists the other mishnayot it
   shares themes with, ranked by overlap, with the shared themes named.
 - **Hover previews** on the graph, theme orbs sized by how many teachings they

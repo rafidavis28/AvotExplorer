@@ -1,7 +1,7 @@
 // Integrity checks for the curated sage attributions against the real dataset.
 import { describe, expect, it } from "vitest";
 import mishnayotData from "../data/mishnayot.json";
-import { attributions, getSage, mishnayotForSage, sages, sagesForMishnah } from "./sages";
+import { attributions, chain, getSage, mishnayotForSage, sages, sagesForMishnah } from "./sages";
 
 const refs = new Set((mishnayotData as { ref: string }[]).map((m) => m.ref));
 
@@ -36,6 +36,21 @@ describe("sages dataset", () => {
       expect(s.hebrew).toBeTruthy();
       expect(s.era).toBeTruthy();
       expect(s.bio).toBeTruthy();
+    }
+  });
+
+  it("every chain slug resolves and non-sage links carry a name", () => {
+    expect(chain.length).toBeGreaterThan(0);
+    for (const group of chain) {
+      expect(group.title).toBeTruthy();
+      expect(group.items.length).toBeGreaterThan(0);
+      for (const item of group.items) {
+        if (item.slug) {
+          expect(getSage(item.slug), `chain references unknown sage ${item.slug}`).toBeDefined();
+        } else {
+          expect(item.name, `chain item missing both slug and name`).toBeTruthy();
+        }
+      }
     }
   });
 

@@ -15,6 +15,7 @@ import { GraphView } from "./GraphView";
 import { DetailPanel } from "./DetailPanel";
 import { SearchBar } from "./SearchBar";
 import { ChapterBrowser } from "./ChapterBrowser";
+import { ChainPanel } from "./ChainPanel";
 import { AboutPanel } from "./AboutPanel";
 
 /** What the graph is currently "gathered" around. */
@@ -68,7 +69,8 @@ export function Explorer() {
   const [lang, setLang] = useState<Lang>("both");
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [focus, setFocus] = useState<Focus | null>(null);
-  const [browserOpen, setBrowserOpen] = useState(false);
+  // The left slot holds at most one of: chapter browser, chain of transmission.
+  const [sidePanel, setSidePanel] = useState<"chapters" | "chain" | null>(null);
   const [aboutOpen, setAboutOpen] = useState(false);
 
   // Restore state from the URL once on mount (deep links). Must run after
@@ -127,7 +129,7 @@ export function Explorer() {
 
   const focusChapter = useCallback((chapter: number) => {
     setFocus({ kind: "chapter", chapter });
-    setBrowserOpen(false);
+    setSidePanel(null);
   }, []);
 
   const clearFocus = useCallback(() => setFocus(null), []);
@@ -142,7 +144,7 @@ export function Explorer() {
       if (e.key === "Escape") {
         if (aboutOpen) setAboutOpen(false);
         else if (selectedId) setSelectedId(null);
-        else if (browserOpen) setBrowserOpen(false);
+        else if (sidePanel) setSidePanel(null);
         else clearFocus();
         return;
       }
@@ -162,7 +164,7 @@ export function Explorer() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [selectedId, browserOpen, aboutOpen, clearFocus, byId, selectAndCenter]);
+  }, [selectedId, sidePanel, aboutOpen, clearFocus, byId, selectAndCenter]);
 
   const focusLabel =
     focus?.kind === "theme"
@@ -209,11 +211,20 @@ export function Explorer() {
         <SearchBar onSelect={selectAndCenter} />
         <button
           type="button"
-          onClick={() => setBrowserOpen((v) => !v)}
-          aria-pressed={browserOpen}
+          onClick={() => setSidePanel((v) => (v === "chapters" ? null : "chapters"))}
+          aria-pressed={sidePanel === "chapters"}
           className="rounded-full border border-white/10 bg-night-deep/70 px-4 py-2 font-display text-sm text-foreground backdrop-blur transition-colors hover:border-gold/50"
         >
           Chapters
+        </button>
+        <button
+          type="button"
+          onClick={() => setSidePanel((v) => (v === "chain" ? null : "chain"))}
+          aria-pressed={sidePanel === "chain"}
+          title="The chain of transmission"
+          className="rounded-full border border-white/10 bg-night-deep/70 px-4 py-2 font-display text-sm text-foreground backdrop-blur transition-colors hover:border-gold/50"
+        >
+          Chain
         </button>
       </div>
 
@@ -248,12 +259,16 @@ export function Explorer() {
         ?
       </button>
 
-      {browserOpen && (
+      {sidePanel === "chapters" && (
         <ChapterBrowser
           onSelect={selectAndCenter}
           onFocusChapter={focusChapter}
-          onClose={() => setBrowserOpen(false)}
+          onClose={() => setSidePanel(null)}
         />
+      )}
+
+      {sidePanel === "chain" && (
+        <ChainPanel onSelect={selectAndCenter} onClose={() => setSidePanel(null)} />
       )}
 
       {aboutOpen && <AboutPanel onClose={() => setAboutOpen(false)} />}
