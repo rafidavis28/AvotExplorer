@@ -1,0 +1,2418 @@
+{
+  "nodes": [
+    {
+      "id": "Avot 1:1",
+      "type": "mishnah",
+      "label": "1:1",
+      "ref": "Avot 1:1",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:2",
+      "type": "mishnah",
+      "label": "1:2",
+      "ref": "Avot 1:2",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:3",
+      "type": "mishnah",
+      "label": "1:3",
+      "ref": "Avot 1:3",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:4",
+      "type": "mishnah",
+      "label": "1:4",
+      "ref": "Avot 1:4",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:5",
+      "type": "mishnah",
+      "label": "1:5",
+      "ref": "Avot 1:5",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:6",
+      "type": "mishnah",
+      "label": "1:6",
+      "ref": "Avot 1:6",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:7",
+      "type": "mishnah",
+      "label": "1:7",
+      "ref": "Avot 1:7",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:8",
+      "type": "mishnah",
+      "label": "1:8",
+      "ref": "Avot 1:8",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:9",
+      "type": "mishnah",
+      "label": "1:9",
+      "ref": "Avot 1:9",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:10",
+      "type": "mishnah",
+      "label": "1:10",
+      "ref": "Avot 1:10",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:11",
+      "type": "mishnah",
+      "label": "1:11",
+      "ref": "Avot 1:11",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:12",
+      "type": "mishnah",
+      "label": "1:12",
+      "ref": "Avot 1:12",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:13",
+      "type": "mishnah",
+      "label": "1:13",
+      "ref": "Avot 1:13",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:14",
+      "type": "mishnah",
+      "label": "1:14",
+      "ref": "Avot 1:14",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:15",
+      "type": "mishnah",
+      "label": "1:15",
+      "ref": "Avot 1:15",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:16",
+      "type": "mishnah",
+      "label": "1:16",
+      "ref": "Avot 1:16",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:17",
+      "type": "mishnah",
+      "label": "1:17",
+      "ref": "Avot 1:17",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 1:18",
+      "type": "mishnah",
+      "label": "1:18",
+      "ref": "Avot 1:18",
+      "chapter": 1
+    },
+    {
+      "id": "Avot 2:1",
+      "type": "mishnah",
+      "label": "2:1",
+      "ref": "Avot 2:1",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:2",
+      "type": "mishnah",
+      "label": "2:2",
+      "ref": "Avot 2:2",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:3",
+      "type": "mishnah",
+      "label": "2:3",
+      "ref": "Avot 2:3",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:4",
+      "type": "mishnah",
+      "label": "2:4",
+      "ref": "Avot 2:4",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:5",
+      "type": "mishnah",
+      "label": "2:5",
+      "ref": "Avot 2:5",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:6",
+      "type": "mishnah",
+      "label": "2:6",
+      "ref": "Avot 2:6",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:7",
+      "type": "mishnah",
+      "label": "2:7",
+      "ref": "Avot 2:7",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:8",
+      "type": "mishnah",
+      "label": "2:8",
+      "ref": "Avot 2:8",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:9",
+      "type": "mishnah",
+      "label": "2:9",
+      "ref": "Avot 2:9",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:10",
+      "type": "mishnah",
+      "label": "2:10",
+      "ref": "Avot 2:10",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:11",
+      "type": "mishnah",
+      "label": "2:11",
+      "ref": "Avot 2:11",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:12",
+      "type": "mishnah",
+      "label": "2:12",
+      "ref": "Avot 2:12",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:13",
+      "type": "mishnah",
+      "label": "2:13",
+      "ref": "Avot 2:13",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:14",
+      "type": "mishnah",
+      "label": "2:14",
+      "ref": "Avot 2:14",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:15",
+      "type": "mishnah",
+      "label": "2:15",
+      "ref": "Avot 2:15",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 2:16",
+      "type": "mishnah",
+      "label": "2:16",
+      "ref": "Avot 2:16",
+      "chapter": 2
+    },
+    {
+      "id": "Avot 3:1",
+      "type": "mishnah",
+      "label": "3:1",
+      "ref": "Avot 3:1",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:2",
+      "type": "mishnah",
+      "label": "3:2",
+      "ref": "Avot 3:2",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:3",
+      "type": "mishnah",
+      "label": "3:3",
+      "ref": "Avot 3:3",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:4",
+      "type": "mishnah",
+      "label": "3:4",
+      "ref": "Avot 3:4",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:5",
+      "type": "mishnah",
+      "label": "3:5",
+      "ref": "Avot 3:5",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:6",
+      "type": "mishnah",
+      "label": "3:6",
+      "ref": "Avot 3:6",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:7",
+      "type": "mishnah",
+      "label": "3:7",
+      "ref": "Avot 3:7",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:8",
+      "type": "mishnah",
+      "label": "3:8",
+      "ref": "Avot 3:8",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:9",
+      "type": "mishnah",
+      "label": "3:9",
+      "ref": "Avot 3:9",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:10",
+      "type": "mishnah",
+      "label": "3:10",
+      "ref": "Avot 3:10",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:11",
+      "type": "mishnah",
+      "label": "3:11",
+      "ref": "Avot 3:11",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:12",
+      "type": "mishnah",
+      "label": "3:12",
+      "ref": "Avot 3:12",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:13",
+      "type": "mishnah",
+      "label": "3:13",
+      "ref": "Avot 3:13",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:14",
+      "type": "mishnah",
+      "label": "3:14",
+      "ref": "Avot 3:14",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:15",
+      "type": "mishnah",
+      "label": "3:15",
+      "ref": "Avot 3:15",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:16",
+      "type": "mishnah",
+      "label": "3:16",
+      "ref": "Avot 3:16",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:17",
+      "type": "mishnah",
+      "label": "3:17",
+      "ref": "Avot 3:17",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 3:18",
+      "type": "mishnah",
+      "label": "3:18",
+      "ref": "Avot 3:18",
+      "chapter": 3
+    },
+    {
+      "id": "Avot 4:1",
+      "type": "mishnah",
+      "label": "4:1",
+      "ref": "Avot 4:1",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:2",
+      "type": "mishnah",
+      "label": "4:2",
+      "ref": "Avot 4:2",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:3",
+      "type": "mishnah",
+      "label": "4:3",
+      "ref": "Avot 4:3",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:4",
+      "type": "mishnah",
+      "label": "4:4",
+      "ref": "Avot 4:4",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:5",
+      "type": "mishnah",
+      "label": "4:5",
+      "ref": "Avot 4:5",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:6",
+      "type": "mishnah",
+      "label": "4:6",
+      "ref": "Avot 4:6",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:7",
+      "type": "mishnah",
+      "label": "4:7",
+      "ref": "Avot 4:7",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:8",
+      "type": "mishnah",
+      "label": "4:8",
+      "ref": "Avot 4:8",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:9",
+      "type": "mishnah",
+      "label": "4:9",
+      "ref": "Avot 4:9",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:10",
+      "type": "mishnah",
+      "label": "4:10",
+      "ref": "Avot 4:10",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:11",
+      "type": "mishnah",
+      "label": "4:11",
+      "ref": "Avot 4:11",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:12",
+      "type": "mishnah",
+      "label": "4:12",
+      "ref": "Avot 4:12",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:13",
+      "type": "mishnah",
+      "label": "4:13",
+      "ref": "Avot 4:13",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:14",
+      "type": "mishnah",
+      "label": "4:14",
+      "ref": "Avot 4:14",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:15",
+      "type": "mishnah",
+      "label": "4:15",
+      "ref": "Avot 4:15",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:16",
+      "type": "mishnah",
+      "label": "4:16",
+      "ref": "Avot 4:16",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:17",
+      "type": "mishnah",
+      "label": "4:17",
+      "ref": "Avot 4:17",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:18",
+      "type": "mishnah",
+      "label": "4:18",
+      "ref": "Avot 4:18",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:19",
+      "type": "mishnah",
+      "label": "4:19",
+      "ref": "Avot 4:19",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:20",
+      "type": "mishnah",
+      "label": "4:20",
+      "ref": "Avot 4:20",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:21",
+      "type": "mishnah",
+      "label": "4:21",
+      "ref": "Avot 4:21",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 4:22",
+      "type": "mishnah",
+      "label": "4:22",
+      "ref": "Avot 4:22",
+      "chapter": 4
+    },
+    {
+      "id": "Avot 5:1",
+      "type": "mishnah",
+      "label": "5:1",
+      "ref": "Avot 5:1",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:2",
+      "type": "mishnah",
+      "label": "5:2",
+      "ref": "Avot 5:2",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:3",
+      "type": "mishnah",
+      "label": "5:3",
+      "ref": "Avot 5:3",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:4",
+      "type": "mishnah",
+      "label": "5:4",
+      "ref": "Avot 5:4",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:5",
+      "type": "mishnah",
+      "label": "5:5",
+      "ref": "Avot 5:5",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:6",
+      "type": "mishnah",
+      "label": "5:6",
+      "ref": "Avot 5:6",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:7",
+      "type": "mishnah",
+      "label": "5:7",
+      "ref": "Avot 5:7",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:8",
+      "type": "mishnah",
+      "label": "5:8",
+      "ref": "Avot 5:8",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:9",
+      "type": "mishnah",
+      "label": "5:9",
+      "ref": "Avot 5:9",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:10",
+      "type": "mishnah",
+      "label": "5:10",
+      "ref": "Avot 5:10",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:11",
+      "type": "mishnah",
+      "label": "5:11",
+      "ref": "Avot 5:11",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:12",
+      "type": "mishnah",
+      "label": "5:12",
+      "ref": "Avot 5:12",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:13",
+      "type": "mishnah",
+      "label": "5:13",
+      "ref": "Avot 5:13",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:14",
+      "type": "mishnah",
+      "label": "5:14",
+      "ref": "Avot 5:14",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:15",
+      "type": "mishnah",
+      "label": "5:15",
+      "ref": "Avot 5:15",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:16",
+      "type": "mishnah",
+      "label": "5:16",
+      "ref": "Avot 5:16",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:17",
+      "type": "mishnah",
+      "label": "5:17",
+      "ref": "Avot 5:17",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:18",
+      "type": "mishnah",
+      "label": "5:18",
+      "ref": "Avot 5:18",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:19",
+      "type": "mishnah",
+      "label": "5:19",
+      "ref": "Avot 5:19",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:20",
+      "type": "mishnah",
+      "label": "5:20",
+      "ref": "Avot 5:20",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:21",
+      "type": "mishnah",
+      "label": "5:21",
+      "ref": "Avot 5:21",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:22",
+      "type": "mishnah",
+      "label": "5:22",
+      "ref": "Avot 5:22",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 5:23",
+      "type": "mishnah",
+      "label": "5:23",
+      "ref": "Avot 5:23",
+      "chapter": 5
+    },
+    {
+      "id": "Avot 6:1",
+      "type": "mishnah",
+      "label": "6:1",
+      "ref": "Avot 6:1",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:2",
+      "type": "mishnah",
+      "label": "6:2",
+      "ref": "Avot 6:2",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:3",
+      "type": "mishnah",
+      "label": "6:3",
+      "ref": "Avot 6:3",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:4",
+      "type": "mishnah",
+      "label": "6:4",
+      "ref": "Avot 6:4",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:5",
+      "type": "mishnah",
+      "label": "6:5",
+      "ref": "Avot 6:5",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:6",
+      "type": "mishnah",
+      "label": "6:6",
+      "ref": "Avot 6:6",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:7",
+      "type": "mishnah",
+      "label": "6:7",
+      "ref": "Avot 6:7",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:8",
+      "type": "mishnah",
+      "label": "6:8",
+      "ref": "Avot 6:8",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:9",
+      "type": "mishnah",
+      "label": "6:9",
+      "ref": "Avot 6:9",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:10",
+      "type": "mishnah",
+      "label": "6:10",
+      "ref": "Avot 6:10",
+      "chapter": 6
+    },
+    {
+      "id": "Avot 6:11",
+      "type": "mishnah",
+      "label": "6:11",
+      "ref": "Avot 6:11",
+      "chapter": 6
+    },
+    {
+      "id": "torah-study",
+      "type": "theme",
+      "label": "Torah Study",
+      "blurb": "The supreme value of learning, laboring in, and never abandoning the Torah."
+    },
+    {
+      "id": "tradition-and-transmission",
+      "type": "theme",
+      "label": "Chain of Tradition",
+      "blurb": "The unbroken handing down of Torah from Sinai through the generations."
+    },
+    {
+      "id": "humility",
+      "type": "theme",
+      "label": "Humility",
+      "blurb": "Lowliness of spirit and modesty; the refusal to grasp at one's own importance."
+    },
+    {
+      "id": "arrogance-and-honor-seeking",
+      "type": "theme",
+      "label": "Arrogance & Honor-Seeking",
+      "blurb": "Pride, the chase after fame and greatness, and their self-destroying power."
+    },
+    {
+      "id": "deeds-over-words",
+      "type": "theme",
+      "label": "Deeds Over Words",
+      "blurb": "The primacy of action over speech and study — doing more than one says."
+    },
+    {
+      "id": "speech-and-silence",
+      "type": "theme",
+      "label": "Speech & Silence",
+      "blurb": "Guarding one's words, the discipline of silence, and the danger of excess talk."
+    },
+    {
+      "id": "fear-of-heaven",
+      "type": "theme",
+      "label": "Fear of Heaven",
+      "blurb": "Reverence and awe before God; fear of sin as the root of enduring wisdom."
+    },
+    {
+      "id": "reward-and-punishment",
+      "type": "theme",
+      "label": "Reward & Punishment",
+      "blurb": "Divine recompense for deeds — and serving without expectation of reward."
+    },
+    {
+      "id": "divine-judgment",
+      "type": "theme",
+      "label": "Judgment & Reckoning",
+      "blurb": "Giving an account before God; the world weighed by the measure of one's deeds."
+    },
+    {
+      "id": "justice-and-courts",
+      "type": "theme",
+      "label": "Justice & the Courts",
+      "blurb": "The conduct of judges and witnesses and the fair administration of the law."
+    },
+    {
+      "id": "repentance",
+      "type": "theme",
+      "label": "Repentance",
+      "blurb": "Returning to the right path; teshuvah and good deeds as a shield against ruin."
+    },
+    {
+      "id": "friendship-and-companionship",
+      "type": "theme",
+      "label": "Friendship & Companions",
+      "blurb": "Acquiring a friend, seeking good company, and the influence of those near us."
+    },
+    {
+      "id": "teacher-and-student",
+      "type": "theme",
+      "label": "Teacher & Student",
+      "blurb": "Raising disciples, honoring one's teacher, and the bond of learning together."
+    },
+    {
+      "id": "peace",
+      "type": "theme",
+      "label": "Peace",
+      "blurb": "Loving and pursuing peace; the world held up by the pursuit of harmony."
+    },
+    {
+      "id": "truth",
+      "type": "theme",
+      "label": "Truth",
+      "blurb": "Truthfulness as one of the pillars on which the world stands."
+    },
+    {
+      "id": "kindness-and-charity",
+      "type": "theme",
+      "label": "Kindness & Charity",
+      "blurb": "Acts of loving-kindness, generosity, and the differing dispositions of givers."
+    },
+    {
+      "id": "love-of-others",
+      "type": "theme",
+      "label": "Love of Others",
+      "blurb": "Cherishing people's dignity, judging them favorably, and greeting all warmly."
+    },
+    {
+      "id": "anger-and-temperament",
+      "type": "theme",
+      "label": "Anger & Temperament",
+      "blurb": "Mastery over anger and the temperaments — being slow to wrath, easy to appease."
+    },
+    {
+      "id": "self-mastery",
+      "type": "theme",
+      "label": "Self-Mastery",
+      "blurb": "Subduing the evil inclination and ruling one's own spirit and desires."
+    },
+    {
+      "id": "desire-and-vices",
+      "type": "theme",
+      "label": "Envy, Lust & Honor",
+      "blurb": "The cravings — envy, lust, and the hunger for honor — that drive a person from the world."
+    },
+    {
+      "id": "wealth-and-contentment",
+      "type": "theme",
+      "label": "Wealth & Contentment",
+      "blurb": "Rejoicing in one's portion; the burdens of property and the meaning of riches."
+    },
+    {
+      "id": "work-and-livelihood",
+      "type": "theme",
+      "label": "Work & Livelihood",
+      "blurb": "The dignity of labor and the pairing of Torah with a worldly occupation."
+    },
+    {
+      "id": "caution-toward-power",
+      "type": "theme",
+      "label": "Caution Toward Power",
+      "blurb": "Wariness of the ruling authorities — even as one prays for the government's welfare."
+    },
+    {
+      "id": "leadership-and-communal-responsibility",
+      "type": "theme",
+      "label": "Communal Responsibility",
+      "blurb": "Not separating from the community and leading the many toward merit."
+    },
+    {
+      "id": "wisdom",
+      "type": "theme",
+      "label": "Wisdom",
+      "blurb": "Who is truly wise — learning from every person and knowing the marks of the wise."
+    },
+    {
+      "id": "good-name",
+      "type": "theme",
+      "label": "A Good Name",
+      "blurb": "The crown of a good name that surpasses every other crown."
+    },
+    {
+      "id": "mortality-and-this-world",
+      "type": "theme",
+      "label": "Mortality & This World",
+      "blurb": "Life as a vestibule before the world to come; remembering one's end."
+    },
+    {
+      "id": "creation-and-purpose",
+      "type": "theme",
+      "label": "Creation & Purpose",
+      "blurb": "The world brought forth by divine utterance, fashioned for God's glory."
+    },
+    {
+      "id": "mitzvot-and-caution",
+      "type": "theme",
+      "label": "Care in Mitzvot",
+      "blurb": "Treating a light commandment as gravely as a weighty one; one mitzvah drawing another."
+    },
+    {
+      "id": "divine-providence",
+      "type": "theme",
+      "label": "Divine Providence",
+      "blurb": "All is foreseen yet freedom is granted; everything given against a pledge."
+    },
+    {
+      "id": "chosenness-of-israel",
+      "type": "theme",
+      "label": "Beloved Israel",
+      "blurb": "Humanity made in the divine image and Israel beloved, gifted the Torah."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Avot 1:1",
+      "target": "tradition-and-transmission",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:1",
+      "target": "justice-and-courts",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:1",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:1",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:2",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:2",
+      "target": "kindness-and-charity",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:3",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:3",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:4",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:4",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:5",
+      "target": "kindness-and-charity",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:5",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:6",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:6",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:6",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:7",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:7",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:8",
+      "target": "justice-and-courts",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:9",
+      "target": "justice-and-courts",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:9",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:10",
+      "target": "work-and-livelihood",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:10",
+      "target": "caution-toward-power",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:10",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:11",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:11",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:12",
+      "target": "peace",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:12",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:12",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:13",
+      "target": "arrogance-and-honor-seeking",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:13",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:14",
+      "target": "leadership-and-communal-responsibility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:14",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:15",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:15",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:15",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:15",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:16",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:17",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:17",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:18",
+      "target": "justice-and-courts",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:18",
+      "target": "truth",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 1:18",
+      "target": "peace",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:1",
+      "target": "mitzvot-and-caution",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:1",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:1",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:2",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:2",
+      "target": "work-and-livelihood",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:2",
+      "target": "leadership-and-communal-responsibility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:3",
+      "target": "caution-toward-power",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:4",
+      "target": "leadership-and-communal-responsibility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:4",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:4",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:4",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:5",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:5",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:5",
+      "target": "leadership-and-communal-responsibility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:6",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:6",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:7",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:7",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:7",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:8",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:8",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:8",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:9",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:9",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:10",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:10",
+      "target": "anger-and-temperament",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:10",
+      "target": "repentance",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:10",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:11",
+      "target": "desire-and-vices",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:11",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:11",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:12",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:12",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:12",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:13",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:14",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:14",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:14",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:15",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:15",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:15",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:16",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:16",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 2:16",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:1",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:1",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:1",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:2",
+      "target": "caution-toward-power",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:2",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:2",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:3",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:3",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:4",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:4",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:5",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:5",
+      "target": "work-and-livelihood",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:5",
+      "target": "caution-toward-power",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:6",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:6",
+      "target": "leadership-and-communal-responsibility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:7",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:7",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:8",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:9",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:9",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:9",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:10",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:10",
+      "target": "desire-and-vices",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:10",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:11",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:11",
+      "target": "mitzvot-and-caution",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:11",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:12",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:12",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:13",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:13",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:13",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:13",
+      "target": "tradition-and-transmission",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:14",
+      "target": "chosenness-of-israel",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:14",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:14",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:15",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:15",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:16",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:16",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:16",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:17",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:17",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:17",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:18",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 3:18",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:1",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:1",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:1",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:1",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:2",
+      "target": "mitzvot-and-caution",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:2",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:3",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:3",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:4",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:4",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:4",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:5",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:5",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:5",
+      "target": "arrogance-and-honor-seeking",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:6",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:6",
+      "target": "good-name",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:7",
+      "target": "justice-and-courts",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:7",
+      "target": "arrogance-and-honor-seeking",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:7",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:8",
+      "target": "justice-and-courts",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:8",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:9",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:9",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:10",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:10",
+      "target": "work-and-livelihood",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:10",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:11",
+      "target": "mitzvot-and-caution",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:11",
+      "target": "repentance",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:11",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:12",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:12",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:12",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:13",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:13",
+      "target": "good-name",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:14",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:14",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:15",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:15",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:15",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:16",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:17",
+      "target": "repentance",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:17",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:17",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:18",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:18",
+      "target": "anger-and-temperament",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:19",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:19",
+      "target": "anger-and-temperament",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:20",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:20",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:21",
+      "target": "desire-and-vices",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:21",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:22",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 4:22",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:1",
+      "target": "creation-and-purpose",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:1",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:2",
+      "target": "creation-and-purpose",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:2",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:3",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:3",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:4",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:5",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:6",
+      "target": "creation-and-purpose",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:6",
+      "target": "divine-providence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:7",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:7",
+      "target": "speech-and-silence",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:7",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:8",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:8",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:9",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:9",
+      "target": "divine-judgment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:10",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:10",
+      "target": "kindness-and-charity",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:11",
+      "target": "anger-and-temperament",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:11",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:12",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:12",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:12",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:13",
+      "target": "kindness-and-charity",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:13",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:14",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:14",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:15",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:15",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:15",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:16",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:16",
+      "target": "friendship-and-companionship",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:17",
+      "target": "peace",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:17",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:17",
+      "target": "truth",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:18",
+      "target": "leadership-and-communal-responsibility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:18",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:18",
+      "target": "repentance",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:19",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:19",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:19",
+      "target": "desire-and-vices",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:20",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:20",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:20",
+      "target": "arrogance-and-honor-seeking",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:21",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:21",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:22",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:23",
+      "target": "reward-and-punishment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 5:23",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:1",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:1",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:1",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:2",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:2",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:3",
+      "target": "teacher-and-student",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:3",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:3",
+      "target": "love-of-others",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:4",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:4",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:4",
+      "target": "self-mastery",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:5",
+      "target": "arrogance-and-honor-seeking",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:5",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:5",
+      "target": "deeds-over-words",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:5",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:6",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:6",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:6",
+      "target": "humility",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:7",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:8",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:8",
+      "target": "wisdom",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:9",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:9",
+      "target": "wealth-and-contentment",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:9",
+      "target": "mortality-and-this-world",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:10",
+      "target": "creation-and-purpose",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:10",
+      "target": "torah-study",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:10",
+      "target": "chosenness-of-israel",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:11",
+      "target": "creation-and-purpose",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "Avot 6:11",
+      "target": "fear-of-heaven",
+      "type": "mishnah-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "wisdom",
+      "type": "theme-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "tradition-and-transmission",
+      "type": "theme-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "teacher-and-student",
+      "type": "theme-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "deeds-over-words",
+      "type": "theme-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "work-and-livelihood",
+      "type": "theme-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "fear-of-heaven",
+      "type": "theme-theme"
+    },
+    {
+      "source": "torah-study",
+      "target": "chosenness-of-israel",
+      "type": "theme-theme"
+    },
+    {
+      "source": "humility",
+      "target": "arrogance-and-honor-seeking",
+      "type": "theme-theme"
+    },
+    {
+      "source": "humility",
+      "target": "good-name",
+      "type": "theme-theme"
+    },
+    {
+      "source": "humility",
+      "target": "love-of-others",
+      "type": "theme-theme"
+    },
+    {
+      "source": "arrogance-and-honor-seeking",
+      "target": "desire-and-vices",
+      "type": "theme-theme"
+    },
+    {
+      "source": "speech-and-silence",
+      "target": "wisdom",
+      "type": "theme-theme"
+    },
+    {
+      "source": "fear-of-heaven",
+      "target": "reward-and-punishment",
+      "type": "theme-theme"
+    },
+    {
+      "source": "reward-and-punishment",
+      "target": "divine-judgment",
+      "type": "theme-theme"
+    },
+    {
+      "source": "divine-judgment",
+      "target": "divine-providence",
+      "type": "theme-theme"
+    },
+    {
+      "source": "divine-judgment",
+      "target": "mortality-and-this-world",
+      "type": "theme-theme"
+    },
+    {
+      "source": "divine-judgment",
+      "target": "repentance",
+      "type": "theme-theme"
+    },
+    {
+      "source": "justice-and-courts",
+      "target": "truth",
+      "type": "theme-theme"
+    },
+    {
+      "source": "truth",
+      "target": "peace",
+      "type": "theme-theme"
+    },
+    {
+      "source": "peace",
+      "target": "love-of-others",
+      "type": "theme-theme"
+    },
+    {
+      "source": "love-of-others",
+      "target": "kindness-and-charity",
+      "type": "theme-theme"
+    },
+    {
+      "source": "love-of-others",
+      "target": "friendship-and-companionship",
+      "type": "theme-theme"
+    },
+    {
+      "source": "anger-and-temperament",
+      "target": "self-mastery",
+      "type": "theme-theme"
+    },
+    {
+      "source": "self-mastery",
+      "target": "desire-and-vices",
+      "type": "theme-theme"
+    },
+    {
+      "source": "wealth-and-contentment",
+      "target": "work-and-livelihood",
+      "type": "theme-theme"
+    },
+    {
+      "source": "caution-toward-power",
+      "target": "leadership-and-communal-responsibility",
+      "type": "theme-theme"
+    },
+    {
+      "source": "mortality-and-this-world",
+      "target": "creation-and-purpose",
+      "type": "theme-theme"
+    },
+    {
+      "source": "creation-and-purpose",
+      "target": "chosenness-of-israel",
+      "type": "theme-theme"
+    },
+    {
+      "source": "mitzvot-and-caution",
+      "target": "reward-and-punishment",
+      "type": "theme-theme"
+    },
+    {
+      "source": "leadership-and-communal-responsibility",
+      "target": "love-of-others",
+      "type": "theme-theme"
+    }
+  ]
+}

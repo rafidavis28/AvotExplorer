@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Avot Explorer
 
-## Getting Started
+An interactive **map of ideas** for Pirkei Avot (Ethics of the Fathers). The 108
+mishnayot and ~30 thematic concepts form a force-directed "constellation"; tap a
+star to read the teaching (Hebrew + English + classical commentaries), or tap a
+theme to gather every teaching that expresses it.
 
-First, run the development server:
+Beyond the graph itself:
+
+- **Sages layer** — every attributed teaching names its sage (curated in
+  `data/sages.json` with era + one-line bio); tap a sage to gather everything
+  they say in the tractate.
+- **Chain of transmission** — a "Chain" panel walks the shalshelet ha-mesorah
+  of Avot 1–2 (Sinai → Great Assembly → the Zugot → the House of Hillel →
+  Yavneh), every link clickable.
+- **Connected teachings** — each Mishnah card lists the other mishnayot it
+  shares themes with, ranked by overlap, with the shared themes named.
+- **Hover previews** on the graph, theme orbs sized by how many teachings they
+  bind, and related-theme chips on every theme card.
+- **Shareable URLs** — selection and focus mirror into `?n=…&f=…`.
+- **Keyboard**: `←`/`→` walk the teachings in reading order, `Esc` steps back;
+  search supports arrow-key navigation and finds sages too.
+- Responsive: detail panel becomes a bottom sheet on mobile.
+
+Built as a static site — all data is baked in at build time, no runtime services.
+
+## Stack
+
+- **Next.js 16** (App Router) + TypeScript + **Tailwind v4**
+- **react-force-graph-2d** for the canvas graph
+- Fonts: Cormorant (display), Spectral (English body), Frank Ruhl Libre (Hebrew)
+
+## Data pipeline (run once; output is committed under `data/`)
+
+The text comes from the public [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export)
+dataset, hosted in a public GCS bucket (`https://storage.googleapis.com/sefaria-export/...`).
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run ingest        # fetch 108 mishnayot (He/En) + 4 core commentaries -> data/mishnayot.json
+npm run tag-themes    # build data/graph.json from the curated tagging in data/themes.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `data/themes.json` holds the curated theme vocabulary, theme→theme relations,
+  and the per-mishnah theme assignments (the reviewed output of an LLM tagging pass).
+- `data/sages.json` holds the hand-curated sage list (name, Hebrew, era, bio) and
+  the ref→sage attributions, including multi-voice mishnayot (e.g. Avot 2:4 is
+  Rabban Gamliel III + Hillel). Integrity-checked by `lib/sages.test.ts`.
+- Regenerate the assignments with an LLM (needs `ANTHROPIC_API_KEY`):
+  ```bash
+  npm run tag-themes -- --regenerate
+  ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Develop
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev        # http://localhost:3000
+npm run typecheck
+npm test           # graph helper unit tests
+npm run build
+```
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npx vercel deploy           # preview
+npx vercel deploy --prod    # production
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+(Requires a one-time `vercel login`.)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Layout
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/            shell + page (renders <Explorer/>)
+components/     GraphView, DetailPanel, MishnahCard, ThemeCard, SearchBar, ChapterBrowser, …
+lib/            data loaders, graph helpers (+ tests), search, shared types
+data/           mishnayot.json, graph.json, themes.json   (committed, build output)
+scripts/        ingest.ts, tag-themes.ts, regenerate-themes.ts
+```
