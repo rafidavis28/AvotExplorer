@@ -6,8 +6,11 @@ import {
   mishnayotForTheme,
   neighborhood,
   nodesById,
+  relatedMishnayot,
+  relatedThemes,
   themeFocusSet,
   themesForMishnah,
+  themeWeights,
 } from "./graph";
 
 const fixture: GraphData = {
@@ -65,6 +68,47 @@ describe("themeFocusSet", () => {
     expect(themeFocusSet(adj, "humility")).toEqual(
       new Set(["humility", "Avot 1:1", "Avot 2:1", "torah-study"]),
     );
+  });
+});
+
+describe("relatedMishnayot", () => {
+  it("ranks other mishnayot by shared theme count and names the shared themes", () => {
+    // 1:1 shares humility with 2:1 and torah-study with 1:2.
+    expect(relatedMishnayot(fixture, byId, "Avot 1:1")).toEqual([
+      { ref: "Avot 1:2", sharedThemes: ["Torah Study"] },
+      { ref: "Avot 2:1", sharedThemes: ["Humility"] },
+    ]);
+  });
+
+  it("returns [] for a mishnah with no themes", () => {
+    const lonely: GraphData = {
+      nodes: [{ id: "Avot 9:9", type: "mishnah", label: "9:9", ref: "Avot 9:9", chapter: 9 }],
+      edges: [],
+    };
+    expect(relatedMishnayot(lonely, nodesById(lonely), "Avot 9:9")).toEqual([]);
+  });
+
+  it("respects the limit", () => {
+    expect(relatedMishnayot(fixture, byId, "Avot 1:1", 1)).toHaveLength(1);
+  });
+});
+
+describe("relatedThemes", () => {
+  it("returns themes linked by theme-theme edges, either direction", () => {
+    expect(relatedThemes(fixture, byId, "humility")).toEqual([
+      { id: "torah-study", label: "Torah Study" },
+    ]);
+    expect(relatedThemes(fixture, byId, "torah-study")).toEqual([
+      { id: "humility", label: "Humility" },
+    ]);
+  });
+});
+
+describe("themeWeights", () => {
+  it("counts mishnayot per theme", () => {
+    const w = themeWeights(fixture);
+    expect(w.get("humility")).toBe(2);
+    expect(w.get("torah-study")).toBe(2);
   });
 });
 

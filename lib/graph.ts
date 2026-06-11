@@ -66,6 +66,74 @@ export function themeFocusSet(adj: Map<string, Set<string>>, themeId: string): S
   return neighborhood(adj, themeId);
 }
 
+/** Another Mishnah reachable through themes shared with a source Mishnah. */
+export interface RelatedMishnah {
+  ref: string;
+  /** Labels of the shared themes, in graph order. */
+  sharedThemes: string[];
+}
+
+/**
+ * Mishnayot that share at least one theme with the given one, ranked by how
+ * many themes they share (then by canonical order). The connective tissue of
+ * the map: "this teaching speaks to that one, through these ideas."
+ */
+export function relatedMishnayot(
+  graph: GraphData,
+  byId: Map<string, GraphNode>,
+  ref: string,
+  limit = 6,
+): RelatedMishnah[] {
+  const themeIds = themesForMishnah(graph, byId, ref).map((t) => t.id);
+  if (themeIds.length === 0) return [];
+  const themeSet = new Set(themeIds);
+
+  const shared = new Map<string, string[]>(); // other ref -> shared theme labels
+  for (const e of graph.edges) {
+    if (e.type !== "mishnah-theme" || e.source === ref || !themeSet.has(e.target)) continue;
+    const theme = byId.get(e.target);
+    if (!theme || theme.type !== "theme") continue;
+    if (!shared.has(e.source)) shared.set(e.source, []);
+    shared.get(e.source)!.push(theme.label);
+  }
+
+  const order = new Map(graph.nodes.map((n, i) => [n.id, i]));
+  return [...shared.entries()]
+    .sort(
+      (a, b) =>
+        b[1].length - a[1].length || (order.get(a[0]) ?? 0) - (order.get(b[0]) ?? 0),
+    )
+    .slice(0, limit)
+    .map(([r, sharedThemes]) => ({ ref: r, sharedThemes }));
+}
+
+/** Themes directly related to a theme (via theme-theme edges). */
+export function relatedThemes(
+  graph: GraphData,
+  byId: Map<string, GraphNode>,
+  themeId: string,
+): ThemeRef[] {
+  const out: ThemeRef[] = [];
+  for (const e of graph.edges) {
+    if (e.type !== "theme-theme") continue;
+    const other = e.source === themeId ? e.target : e.target === themeId ? e.source : null;
+    if (!other) continue;
+    const node = byId.get(other);
+    if (node && node.type === "theme") out.push({ id: node.id, label: node.label });
+  }
+  return out;
+}
+
+/** theme id -> number of mishnayot expressing it (for sizing orbs by weight). */
+export function themeWeights(graph: GraphData): Map<string, number> {
+  const weights = new Map<string, number>();
+  for (const e of graph.edges) {
+    if (e.type !== "mishnah-theme") continue;
+    weights.set(e.target, (weights.get(e.target) ?? 0) + 1);
+  }
+  return weights;
+}
+
 /** Set of node ids to keep lit when a chapter is focused: every Mishnah in the
  *  chapter plus the themes they touch. */
 export function chapterFocusSet(

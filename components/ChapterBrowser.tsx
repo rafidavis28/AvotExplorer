@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { mishnayot } from "@/lib/data";
+import { sagesForMishnah } from "@/lib/sages";
 
 const CHAPTERS = [1, 2, 3, 4, 5, 6];
 
@@ -16,7 +17,7 @@ export function ChapterBrowser({ onSelect, onFocusChapter, onClose }: ChapterBro
 
   return (
     <nav
-      className="vellum animate-panel-in scroll-vellum absolute left-4 top-4 bottom-4 z-20 flex w-72 flex-col overflow-y-auto rounded-2xl border border-vellum-edge p-5 shadow-2xl shadow-black/60"
+      className="vellum animate-panel-in scroll-vellum absolute inset-x-2 bottom-2 top-[20dvh] z-20 flex flex-col overflow-y-auto rounded-2xl border border-vellum-edge p-5 shadow-2xl shadow-black/60 sm:inset-x-auto sm:bottom-4 sm:left-4 sm:top-4 sm:w-72"
       aria-label="Browse by chapter"
     >
       <div className="mb-3 flex items-center justify-between">
@@ -70,7 +71,7 @@ export function ChapterBrowser({ onSelect, onFocusChapter, onClose }: ChapterBro
                         <span className="font-display font-semibold text-ink">
                           {m.chapter}:{m.mishnah}
                         </span>{" "}
-                        {m.english.slice(0, 34)}…
+                        {sagesForMishnah(m.ref)[0]?.name ?? m.english.slice(0, 34) + "…"}
                       </button>
                     </li>
                   ))}

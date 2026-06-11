@@ -5,6 +5,20 @@ mishnayot and ~30 thematic concepts form a force-directed "constellation"; tap a
 star to read the teaching (Hebrew + English + classical commentaries), or tap a
 theme to gather every teaching that expresses it.
 
+Beyond the graph itself:
+
+- **Sages layer** — every attributed teaching names its sage (curated in
+  `data/sages.json` with era + one-line bio); tap a sage to gather everything
+  they say in the tractate.
+- **Connected teachings** — each Mishnah card lists the other mishnayot it
+  shares themes with, ranked by overlap, with the shared themes named.
+- **Hover previews** on the graph, theme orbs sized by how many teachings they
+  bind, and related-theme chips on every theme card.
+- **Shareable URLs** — selection and focus mirror into `?n=…&f=…`.
+- **Keyboard**: `←`/`→` walk the teachings in reading order, `Esc` steps back;
+  search supports arrow-key navigation and finds sages too.
+- Responsive: detail panel becomes a bottom sheet on mobile.
+
 Built as a static site — all data is baked in at build time, no runtime services.
 
 ## Stack
@@ -25,6 +39,9 @@ npm run tag-themes    # build data/graph.json from the curated tagging in data/t
 
 - `data/themes.json` holds the curated theme vocabulary, theme→theme relations,
   and the per-mishnah theme assignments (the reviewed output of an LLM tagging pass).
+- `data/sages.json` holds the hand-curated sage list (name, Hebrew, era, bio) and
+  the ref→sage attributions, including multi-voice mishnayot (e.g. Avot 2:4 is
+  Rabban Gamliel III + Hillel). Integrity-checked by `lib/sages.test.ts`.
 - Regenerate the assignments with an LLM (needs `ANTHROPIC_API_KEY`):
   ```bash
   npm run tag-themes -- --regenerate

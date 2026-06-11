@@ -1,6 +1,8 @@
 "use client";
 
 import type { Lang, Mishnah } from "@/lib/types";
+import type { Sage } from "@/lib/sages";
+import type { RelatedMishnah } from "@/lib/graph";
 import { LangToggle } from "./LangToggle";
 import { CommentaryAccordion } from "./CommentaryAccordion";
 
@@ -8,9 +10,14 @@ export interface MishnahCardProps {
   mishnah: Mishnah;
   lang: Lang;
   onLangChange: (lang: Lang) => void;
+  /** The sages who speak in this Mishnah (primary voice first). */
+  sages?: Sage[];
+  onSageClick?: (slug: string) => void;
   /** Themes this Mishnah connects to (id + label), rendered as chips. */
   themes?: { id: string; label: string }[];
   onThemeClick?: (themeId: string) => void;
+  /** Teachings that share themes with this one, with the shared themes named. */
+  related?: (RelatedMishnah & { mishnah?: Mishnah })[];
   /** Sequential navigation. */
   prevRef?: string | null;
   nextRef?: string | null;
@@ -21,8 +28,11 @@ export function MishnahCard({
   mishnah,
   lang,
   onLangChange,
+  sages = [],
+  onSageClick,
   themes = [],
   onThemeClick,
+  related = [],
   prevRef,
   nextRef,
   onNavigate,
@@ -47,6 +57,23 @@ export function MishnahCard({
             <p className="mt-1 font-display text-sm uppercase tracking-[0.2em] text-ink-soft">
               Chapter {mishnah.chapter} · Mishnah {mishnah.mishnah}
             </p>
+            {sages.length > 0 && (
+              <p className="mt-2 text-sm text-ink-soft">
+                {sages.map((s, i) => (
+                  <span key={s.slug}>
+                    {i > 0 && <span aria-hidden> · </span>}
+                    <button
+                      type="button"
+                      onClick={() => onSageClick?.(s.slug)}
+                      title={`${s.era} — ${s.bio}`}
+                      className="font-display text-base font-semibold text-ink underline decoration-gold/50 decoration-dotted underline-offset-4 transition-colors hover:text-gold-dim"
+                    >
+                      {s.name}
+                    </button>
+                  </span>
+                ))}
+              </p>
+            )}
           </div>
           <LangToggle value={lang} onChange={onLangChange} />
         </div>
@@ -95,6 +122,40 @@ export function MishnahCard({
           </div>
         )}
 
+        {/* Connected teachings — the threads of the web */}
+        {related.length > 0 && (
+          <section className="mt-7" aria-label="Connected teachings">
+            <p className="mb-2 font-display text-xs uppercase tracking-[0.22em] text-gold-dim">
+              Connected teachings
+            </p>
+            <ul className="space-y-1.5">
+              {related.map((r) => (
+                <li key={r.ref}>
+                  <button
+                    type="button"
+                    onClick={() => onNavigate?.(r.ref)}
+                    className="group w-full rounded-lg border border-transparent px-3 py-2 text-left transition-colors hover:border-vellum-edge hover:bg-[#ece0c3]/50"
+                  >
+                    <span className="flex items-baseline justify-between gap-3">
+                      <span className="font-display text-base font-semibold text-ink">
+                        {r.ref.replace("Avot ", "")}
+                      </span>
+                      <span className="truncate font-display text-xs text-gold-dim">
+                        via {r.sharedThemes.join(" · ")}
+                      </span>
+                    </span>
+                    {r.mishnah && (
+                      <span className="mt-0.5 line-clamp-2 block text-sm leading-snug text-ink-soft">
+                        {r.mishnah.english}
+                      </span>
+                    )}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {/* Commentaries */}
         <section className="mt-7" aria-label="Commentaries">
           <p className="mb-2 font-display text-xs uppercase tracking-[0.22em] text-gold-dim">
@@ -112,6 +173,9 @@ export function MishnahCard({
           onNavigate={onNavigate}
           label="Previous"
         />
+        <span className="hidden font-display text-xs uppercase tracking-[0.18em] text-ink-soft/60 sm:block">
+          ← → keys
+        </span>
         <NavButton
           dir="next"
           targetRef={nextRef}

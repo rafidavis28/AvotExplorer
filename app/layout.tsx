@@ -24,10 +24,23 @@ const frankRuhl = Frank_Ruhl_Libre({
   weight: ["400", "500", "700"],
 });
 
+const description =
+  "Explore Pirkei Avot as a constellation of 108 teachings, 31 themes, and the sages who spoke them — with Hebrew, English, and classical commentaries.";
+
 export const metadata: Metadata = {
   title: "Avot Explorer — A Map of the Ethics of the Fathers",
-  description:
-    "Explore Pirkei Avot as a constellation of teachings and themes, with Hebrew, English, and classical commentaries.",
+  description,
+  openGraph: {
+    title: "Avot Explorer — A Map of the Ethics of the Fathers",
+    description,
+    type: "website",
+    siteName: "Avot Explorer",
+  },
+  twitter: {
+    card: "summary",
+    title: "Avot Explorer",
+    description,
+  },
 };
 
 export default function RootLayout({
