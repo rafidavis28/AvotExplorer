@@ -3,8 +3,10 @@
 import type { Lang, Mishnah } from "@/lib/types";
 import type { Sage } from "@/lib/sages";
 import type { RelatedMishnah } from "@/lib/graph";
+import type { TaraginInsight } from "@/lib/taragin";
 import { LangToggle } from "./LangToggle";
 import { CommentaryAccordion } from "./CommentaryAccordion";
+import { TaraginInsights } from "./TaraginInsights";
 
 export interface MishnahCardProps {
   mishnah: Mishnah;
@@ -18,6 +20,8 @@ export interface MishnahCardProps {
   onThemeClick?: (themeId: string) => void;
   /** Teachings that share themes with this one, with the shared themes named. */
   related?: (RelatedMishnah & { mishnah?: Mishnah })[];
+  /** Rav Taragin's "Biglal Avos" articles on this Mishnah. */
+  taragin?: TaraginInsight[];
   /** Sequential navigation. */
   prevRef?: string | null;
   nextRef?: string | null;
@@ -33,6 +37,7 @@ export function MishnahCard({
   themes = [],
   onThemeClick,
   related = [],
+  taragin = [],
   prevRef,
   nextRef,
   onNavigate,
@@ -155,6 +160,9 @@ export function MishnahCard({
             </ul>
           </section>
         )}
+
+        {/* Rav Taragin's Biglal Avos insights */}
+        <TaraginInsights insights={taragin} />
 
         {/* Commentaries */}
         <section className="mt-7" aria-label="Commentaries">

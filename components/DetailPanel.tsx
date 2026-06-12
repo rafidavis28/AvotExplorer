@@ -11,6 +11,7 @@ import {
   themesForMishnah,
 } from "@/lib/graph";
 import { getSage, mishnayotForSage, sagesForMishnah } from "@/lib/sages";
+import { insightsForMishnah, insightsForTheme } from "@/lib/taragin";
 import { MishnahCard } from "./MishnahCard";
 import { ThemeCard } from "./ThemeCard";
 import { SageCard } from "./SageCard";
@@ -73,6 +74,7 @@ export function DetailPanel({
               ...r,
               mishnah: getMishnah(r.ref),
             }))}
+            taragin={insightsForMishnah(node.ref)}
             prevRef={prev}
             nextRef={next}
             onNavigate={onSelectNode}
@@ -88,6 +90,7 @@ export function DetailPanel({
             .map((ref) => getMishnah(ref))
             .filter((m): m is NonNullable<typeof m> => Boolean(m))}
           relatedThemes={relatedThemes(graph, byId, node.id)}
+          taragin={insightsForTheme(node.id)}
           onSelectTheme={onSelectNode}
           onSelectMishnah={onSelectNode}
         />

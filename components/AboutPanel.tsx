@@ -67,6 +67,14 @@ export function AboutPanel({ onClose }: { onClose: () => void }) {
             via the Sefaria-Export dataset.
           </p>
           <p>
+            Thematic insights marked <em>Biglal Avos</em> are quoted from{" "}
+            <strong className="text-ink">Rav Reuven Taragin</strong>&rsquo;s manuscript{" "}
+            <em>Biglal Avos: Pirkei Avos&rsquo;s Presentation of Our Basic Hashkafic
+            Principles</em>, along with the further commentaries he cites there. The quotes are
+            his words; the one-line source summaries are this project&rsquo;s paraphrase of his
+            citations.
+          </p>
+          <p>
             Theme connections and sage attributions are this project&rsquo;s own curation — a
             study aid, not a ruling. Learn the sources themselves.
           </p>
