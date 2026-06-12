@@ -2,6 +2,8 @@
 
 import type { Mishnah } from "@/lib/types";
 import type { ThemeRef } from "@/lib/graph";
+import type { TaraginInsight } from "@/lib/taragin";
+import { TaraginInsights } from "./TaraginInsights";
 
 export interface ThemeCardProps {
   label: string;
@@ -9,6 +11,8 @@ export interface ThemeCardProps {
   mishnayot: Mishnah[];
   /** Themes directly related to this one (theme-theme edges). */
   relatedThemes?: ThemeRef[];
+  /** Rav Taragin's "Biglal Avos" articles that speak to this theme. */
+  taragin?: TaraginInsight[];
   onSelectTheme?: (themeId: string) => void;
   onSelectMishnah: (ref: string) => void;
 }
@@ -18,6 +22,7 @@ export function ThemeCard({
   blurb,
   mishnayot,
   relatedThemes = [],
+  taragin = [],
   onSelectTheme,
   onSelectMishnah,
 }: ThemeCardProps) {
@@ -55,22 +60,27 @@ export function ThemeCard({
         {mishnayot.length} teaching{mishnayot.length === 1 ? "" : "s"}
       </p>
 
-      <ul className="scroll-vellum -mr-2 flex-1 space-y-2 overflow-y-auto pr-2">
-        {mishnayot.map((m) => (
-          <li key={m.ref}>
-            <button
-              type="button"
-              onClick={() => onSelectMishnah(m.ref)}
-              className="group w-full rounded-lg border border-transparent px-3 py-2 text-left transition-colors hover:border-vellum-edge hover:bg-[#ece0c3]/50"
-            >
-              <span className="font-display text-lg font-semibold text-ink">
-                {m.chapter}:{m.mishnah}
-              </span>
-              <span className="ml-3 text-sm text-ink-soft">{m.english.slice(0, 88)}…</span>
-            </button>
-          </li>
-        ))}
-      </ul>
+      <div className="scroll-vellum -mr-2 flex-1 overflow-y-auto pr-2">
+        <ul className="space-y-2">
+          {mishnayot.map((m) => (
+            <li key={m.ref}>
+              <button
+                type="button"
+                onClick={() => onSelectMishnah(m.ref)}
+                className="group w-full rounded-lg border border-transparent px-3 py-2 text-left transition-colors hover:border-vellum-edge hover:bg-[#ece0c3]/50"
+              >
+                <span className="font-display text-lg font-semibold text-ink">
+                  {m.chapter}:{m.mishnah}
+                </span>
+                <span className="ml-3 text-sm text-ink-soft">{m.english.slice(0, 88)}…</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+
+        {/* Rav Taragin's Biglal Avos articles on this theme */}
+        <TaraginInsights insights={taragin} onNavigate={onSelectMishnah} />
+      </div>
     </article>
   );
 }
